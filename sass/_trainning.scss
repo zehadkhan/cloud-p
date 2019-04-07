@@ -1,0 +1,95 @@
+.training{
+   background: #F5F5F5;
+   .training-inner{
+      
+   }
+   .training-top-link{
+      a{
+         span{}
+      }
+   }
+   .training-header{
+      h1{}
+   }
+   .training-body-all{
+      .training-course{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+      }
+      
+   }
+   .training-course-single{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin: 0 auto;
+      max-width: 363px;
+      width: 100%;
+      border-width: 1px 1px 1px 1px;
+      border-radius: 0px 0px 0px 0px;
+      border-color: #e5e5e5;
+      border-style: solid;
+      img{
+         width: 100%;
+         height: auto;
+      }
+
+   }
+   .training-image-head-link{
+      a{
+         text-align: center;
+         font-size: 20px;
+         line-height: 25px;
+         color: #000000;
+         font-weight: 700;
+         h2{
+            padding: 27px 10px 30px 10px;
+            font-size: 20px;
+            border-width: 1px 1px 1px 1px;
+            border-bottom:1px solid #e5e5e5;
+         }
+         :hover{
+            color: #23527c;
+            text-decoration: underline;
+         }
+      }
+   }
+   .training-course-fee{
+      text-align: center;
+      .course-fee-amount{
+         border-width: 1px 1px 1px 1px;
+         border-bottom:1px solid #e5e5e5;
+         p{}
+      }
+      .course-fee-duration{
+         border-width: 1px 1px 1px 1px;
+         border-bottom:1px solid #e5e5e5;
+         p{}
+      }
+      .course-fee-classes{
+         border-width: 1px 1px 1px 1px;
+         border-bottom:1px solid #e5e5e5;
+         padding: 10px 10px 37px 10px;
+         p{}
+         a{
+            background-color: rgba(227,58,12,1.00) !important;
+            font-size: 13px !important;
+            line-height: 20px !important;
+            color: #ffffff !important;
+            font-weight: 700 !important;
+            padding: 8px 25px 8px 25px !important;
+         }
+         :hover{
+            background-color: #151414 !important;
+         }
+      }
+   }
+   .course-1,.course-2,.course-3{
+      margin-bottom: 20px;
+   }
+   .mar-gin-b{
+      margin-bottom: 20px;
+   }
+}
+
+

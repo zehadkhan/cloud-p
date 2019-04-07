@@ -1,0 +1,95 @@
+.about-us{
+   .about-us-inner{
+      margin-bottom: 20px;
+      .about-us-top-link{
+         a{}
+      }
+   }
+   .about-us-heading{
+      h1{
+         border-bottom: 4px double #35a7f2;
+      }
+      .about-us-p-graph-one{
+         padding: 10px;
+         color: #777;
+         line-height: 24px;
+         p{
+            text-align: justify;
+         }
+      }
+   }
+   .about-us-our-team{
+      h1{
+         text-align: center;
+         max-width: 200px;
+         width: 100%;
+         margin: 0 auto;
+         border: 2px solid;
+         margin-bottom: 20px;
+         border: 2px solid #666;
+         color: #666;
+      }
+   }
+   .about-us-team-members{
+      padding: 5px;
+      text-align: center;
+      // display: flex;
+      // flex-wrap: wrap;
+      // justify-content: space-between;
+      .team-member-first-col{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         margin-bottom: 20px;
+      }
+   }
+   .one--photo--social{
+      max-width: 288px;
+      width: 100%;
+      img{
+         width: 200px;
+         height: 200px;
+      }
+      @media screen and (min-width:280px) and(max-width:400px) {
+         max-width: 242px;
+         width: 100%;
+      }
+      @media screen and (min-width:401px) and(max-width:600px) {
+         max-width: 250px;
+         width: 100%;
+      }
+   }
+   .team-members-info{
+      background: #0BB5E8;
+      color: #fff;
+      padding-top: 5px;
+      padding-bottom: 2px;
+      max-width: 280px;
+      width: 100%;
+      h2{
+         font-size: 20px;
+      }
+      .team-members-social{
+         
+      }
+      .ms_icon{
+         max-width: 100px;
+         margin: 0 auto;
+         margin-bottom: 13px;
+         margin-top: 13px;
+         ul{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            li{
+               width: 30px;
+               height: 30px;
+               background: #113e6f;
+               a{
+                  color: #ffffff;
+               }
+            }
+         }
+      }
+   }
+}

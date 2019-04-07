@@ -1,0 +1,37 @@
+.client{
+   .client-inner{
+      .client-top-link{
+      }
+      .client-header{
+
+      }
+      .client-body-all{
+         .client-our-client-all{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .client-single-roww{
+               img{
+                  border-top-left-radius: 50% 50%;
+                  border-top-right-radius: 50% 50%;
+                  border-bottom-right-radius: 50% 50%;
+                  border-bottom-left-radius: 50% 50%;
+               }
+            }
+         }
+         .single-roww-1{
+            // clip-path: circle(78px at 98px 113px);
+            background: purple;
+            // height: 203px;
+            // width: 201px;
+         }
+      }
+   }
+}
+
+.client-body-all-tow{
+   .client-our-client-all-two{
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
