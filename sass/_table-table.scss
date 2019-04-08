@@ -1,0 +1,36 @@
+.table-table{
+   background: #F5F5F5;
+   padding-bottom: 30px;
+   .table-table-inner{}
+   .table-tb-header{
+      h1{
+         border-bottom: 4px double #35a7f2;
+         width: 100%;
+         float: left;
+         padding-bottom: 5px;
+         text-align: left;
+         text-transform: uppercase;
+      }
+      .table-link{
+         a{}
+         span{}
+      }
+   }
+   .table-bg-image-area{
+      margin: 0 auto;
+      max-width: 790px;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 22px;
+      img{
+         max-width: 600px;
+         width: 100%;
+      }
+   }
+   table{
+      tr{
+         th{font-size: 14pt;}
+         td{font-size: 14pt;}
+      }
+   }
+}
