@@ -1,0 +1,299 @@
+body{
+	font-family:'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{margin:0px}
+
+.service_content p{text-align:justify !important;}
+
+h1,h2,h3{
+	font-family: 'Lato', sans-serif;
+}
+#service-sections{
+padding:50px 0!important;
+}
+.header_area{
+background-color: #fffcfc;
+background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+padding:7px 0;
+}
+
+.site_title{margin-top: 25px;}
+
+.site_title > h2 {
+	color: #35a7f2;
+	font-size:36px;
+	font-weight: 400;
+	margin-bottom: 3px;
+	text-transform: uppercase;
+	font-family: 'Libre Baskerville', serif;
+}
+.blog_right_sidebar {
+    text-align: left;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#wp-calendar{
+width:100%;
+}
+.site_title > p {
+	color: #35a7f2;
+	font-family: "Libre Baskerville",serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+.social_icons ul{margin:0;padding:0;}
+.social_icons ul li{display: inline;
+list-style: outside none none;
+margin: 0 4px;}
+
+.social_icons ul li:last-child{margin-right:0px}
+
+/* .social_icons ul li a{background:#35a7f2 none repeat scroll 0 0;
+border-radius: 50%;
+color: #fff;
+display: inline-block;
+font-size: 19px;
+height: 32px;
+padding: 3px 0 0;
+text-align: center;
+width: 32px;} */
+
+.social_icons ul li a{background: #35a7f2 none repeat scroll 0 0;
+color: #ffffff;
+display: inline-block;
+font-size: 15px;
+height: 32px;
+padding: 5px 10px;
+text-align: center;
+transition: all 0.5s ease 0s;
+width: 32px;}
+
+.social_icons ul li a:hover{transform:rotate(360deg);}
+
+.social_icons {
+float: right;
+margin-top: 14px;
+}
+.search_box {
+  float: right;
+  margin-top: 20px;
+}
+.search_box {
+  float: right;
+  margin-top: 13px;
+}
+
+.fa-search{background: #35a7f2 none repeat scroll 0 0;
+border-radius: 0 2px;
+color: #fff;
+cursor: pointer;
+font-size: 16px;
+margin-left: -5px;
+padding: 6px 10px;}
+
+.search_field{border: 1px solid #ddd;
+height: 28px;
+padding-left: 8px;
+width: 175px;}
+
+.menu_section{background:#35a7f2}
+
+.main-menu{text-align:center}
+
+.main-menu ul{
+	margin:0;padding:0;
+}
+.main-menu ul li{
+	display:inline;
+	list-style:none;
+}
+.main-menu ul li a{
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 20px 15px;
+	transition: all 0.5s ease 0s;
+}
+.main-menu ul li a:hover{background: #eee none repeat scroll 0 0;
+color: #35a7f2;
+text-decoration: none;}
+.tab_content {
+    border: 1px solid #35a7f2;
+    padding: 10px;
+}
+.our_news .menu {
+  color: #fff;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.our_news ul li a {
+  color: #fff;
+  display: block;
+  padding: 2px 0;
+}
+.slider_area img{
+	width:100%;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	background:#35a7f2;
+	color:#fff;
+}
+
+
+.section_title{border-bottom: 4px double;
+color: #35a7f2;
+display: inline-table;
+font-family: 'Roboto', sans-serif;
+font-size: 29px;
+font-weight: 400;
+margin-bottom: 40px;
+text-transform: uppercase;}
+
+.welcom_section{padding: 50px 0;}
+
+.welcome_block h2{color: #35a7f2;
+font-size: 30px;
+margin-bottom: 20px;
+font-family: 'Roboto', sans-serif;}
+
+.welcome_block p{    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 23px;
+    color: #777;
+    text-align: justify;}
+.serction_content_style{    border: 1px solid #ddd;
+    padding: 10px;border-radius:4px;}
+.serction_content_style:hover{
+	 border: 1px solid #35a7f2;
+}	
+.serction_content_style i {
+    font-size: 55px;
+    background:#35a7f2;
+    color: #fff;
+    width: 123px;
+    height: 123px;
+    text-align: center;
+    border-radius: 540%;
+    padding-top: 35px;
+}
+.serction_content_style h2{
+	color: #777;
+    font-size: 23px;
+    margin: 15px 0;
+}
+.serction_content_style p{
+	color:#777;
+}
+.tab_menu{}
+
+.nav-tabs{}
+
+.tab_menu ul{border-bottom: 0 none;
+text-align: center;
+background:#000;
+}
+
+.tab_menu ul li{border-right: 1px solid #fff;
+width: 25%;}
+
+.tab_menu ul li:last-child{border-right: 0px solid #fff;}
+
+.tab_menu ul li a{border-bottom: 0 none;
+color: #fff;
+margin: 0;}
+
+.tab_menu ul li.active a{background-color: #35a7f2;
+border: 0 none !important;
+border-radius: 0;
+margin-right: 0;
+color:#fff}
+
+.tab_menu li.active a:hover{background-color: #35a7f2;
+border: 0 none !important;
+border-radius: 0;
+margin-right: 0;}
+
+.tab_menu li a:hover{background-color: #35a7f2;
+border: 0 none !important;
+border-radius: 0;
+margin-right: 0;}
+
+.tab_content{}
+
+.word_cap{font-size: 60px;}
+
+.services_section{ padding: 20px 0 50px 0;
+text-align: center;    background:#f5f5f5;}
+
+.recent_projects{padding: 50px 0;
+text-align: center;}
+
+.Our_client{padding: 50px 0; background:#f5f5f5;
+text-align: center;}
+.blog_right_sidebar h3 {
+    color: #35a7f2;
+    font-size: 23px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 9px;
+}
+.services_section{}
+
+.footer_top_sction{background: #35a7f2 none repeat scroll 0 0;
+padding: 50px 0;
+color:#fff}
+
+.our_news h3, .address h3, .facebook_page h3 {
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    padding-bottom: 7px;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.footer_bottom{background-color: #fffcfc;
+background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
+height: 80px;
+padding: 17px 0;}
+
+.footer_bottom p{color: #000;
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;}
+.footer_bottom p a{color:#35A7F2}
+.footer_social_icon{    margin-top: 8px;
+    float: initial;}
+.footer_social_icon ul li a{transform:rotate(45deg);}
+.footer_social_icon ul li a i.fa{transform:rotate(-45deg);}
+.footer_social_icon ul li a i.fa:hover{transform:rotate(0deg);}
+.footer_social_icon ul li a:hover{transform:rotate(0deg);}
+.inner_page_style p{
+    color: #777;
+    margin-bottom: 13px;
+    line-height: 23px;
+}
+
+/*  About Us  */
+.about_content p{margin-bottom:20px;}
+.about_content p:last-child{margin-bottom:0px;}
+ul.mega-sub-menu{width:200px !important;}
+.carrier{margin-bottom:20px;}
+.carrier h3,.intern h3{margin-bottom:20px;}
+.carrier p,.intern p{margin-bottom:15px;}
+.intern p span{color:#35A6F2;font-style:italic;}
+
+.esg-grid .mainul li.eg-harding-wrapper {
+    background-color: #2C3E50 !important;
+}
+
+#mega-menu-wrap-header-menu .mega-menu-toggle {background: #35A6F2 !important;}
+
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-current-menu-item > a.mega-menu-link {background-color:#000 !important;}
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-current-menu-parent {background-color:#000 !important;}
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-current-menu-parent ul.mega-sub-menu li.mega-current-menu-item a.mega-menu-link {background-color:#000 !important;}
