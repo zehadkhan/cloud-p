@@ -78,10 +78,11 @@
             color: #ffffff !important;
             font-weight: 700 !important;
             padding: 8px 25px 8px 25px !important;
+            :hover{
+               background-color: #151414 !important;
+            }
          }
-         :hover{
-            background-color: #151414 !important;
-         }
+         
       }
    }
    .course-1,.course-2,.course-3{

@@ -420,8 +420,8 @@ ul li {
         color: #ffffff !important;
         font-weight: 700 !important;
         padding: 8px 25px 8px 25px !important; }
-      .training .training-course-fee .course-fee-classes :hover {
-        background-color: #151414 !important; }
+        .training .training-course-fee .course-fee-classes a :hover {
+          background-color: #151414 !important; }
   .training .course-1, .training .course-2, .training .course-3 {
     margin-bottom: 20px; }
   .training .mar-gin-b {
