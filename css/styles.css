@@ -469,3 +469,27 @@ ul li {
       margin-bottom: 20px; }
     .career .career-inner .career-body .career-body-inner p {
       margin-bottom: 15px; }
+
+.table-table {
+  background: #F5F5F5;
+  padding-bottom: 30px; }
+  .table-table .table-tb-header h1 {
+    border-bottom: 4px double #35a7f2;
+    width: 100%;
+    float: left;
+    padding-bottom: 5px;
+    text-align: left;
+    text-transform: uppercase; }
+  .table-table .table-bg-image-area {
+    margin: 0 auto;
+    max-width: 790px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 22px; }
+    .table-table .table-bg-image-area img {
+      max-width: 600px;
+      width: 100%; }
+  .table-table table tr th {
+    font-size: 14pt; }
+  .table-table table tr td {
+    font-size: 14pt; }
