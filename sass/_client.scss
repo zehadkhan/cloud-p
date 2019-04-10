@@ -1,9 +1,20 @@
 .client{
+   background: #f5f5f5;
    .client-inner{
       .client-top-link{
+         padding-left: 11rem;
+         padding-top: 1rem;
       }
       .client-header{
-
+         max-width: 1200px;
+         padding: 17px;
+         h1{
+            border-bottom: 4px double #35a7f2;
+            width: 100%;
+            padding-bottom: 5px;
+            text-align: left;
+            text-transform: uppercase;
+         }
       }
       .client-body-all{
          .client-our-client-all{
@@ -11,21 +22,58 @@
             flex-wrap: wrap;
             justify-content: space-between;
             .client-single-roww{
-               img{
-                  border-top-left-radius: 50% 50%;
-                  border-top-right-radius: 50% 50%;
-                  border-bottom-right-radius: 50% 50%;
-                  border-bottom-left-radius: 50% 50%;
-               }
+               // background: red;
+               // height: 200px;
+               // width: 205px;
+               
             }
          }
-         .single-roww-1{
-            // clip-path: circle(78px at 98px 113px);
-            background: purple;
-            // height: 203px;
-            // width: 201px;
-         }
+         
       }
+   }
+   .single-roww-1{
+      // clip-path: circle(78px at 98px 113px);
+      background: #2C3E50;
+      height: auto;
+      // max-width: 218px;
+      width: 100%;
+      padding: 25px;
+      // height: 203px;
+      // width: 201px;
+      img{
+         width: 100%;
+          height: auto;
+         border-top-left-radius: 50% 50%;
+         border-top-right-radius: 50% 50%;
+         border-bottom-right-radius: 50% 50%;
+         border-bottom-left-radius: 50% 50%;
+      }
+   }
+   .singl-row-test{
+      text-align: center;
+      background: #ffffff;
+      h3{
+         font-size: 15px !important;
+      line-height: 25px !important;
+      color: #000000 !important;
+      font-weight: 800 !important;
+      }
+      p{
+         font-size: 12px;
+         line-height: 14px;
+         color: #000;
+         font-weight: 500;
+         padding-bottom: 12px;
+      }
+      p:after {
+         content: "";
+         border: 1px solid;
+         display: flow-root;
+         max-width: 59px;
+         margin: 0 auto;
+         margin-top: 12px;
+         
+     }
    }
 }
 
