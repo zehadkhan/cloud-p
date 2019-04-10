@@ -80,7 +80,18 @@
 
 
    <section class="slider-area">
-      
+      <div class="slider-inner">
+            <ul class="bxslider">
+               <li><img src="/images/ruevo-slider.jpg" /></li>
+               <li><img src="/images/ruevo-slider2.jpg" /></li>
+               <li><img src="/images/ruevo-slider.jpg" /></li>
+               <li><img src="/images/ruevo-slider2.jpg" /></li>
+            </ul>
+            <!-- <nav class='controls'>
+                  <a href='#' id='PREV' class='bxPrev'></a>
+                  <a href='#' id='NEXT' class='bxNext'></a>
+            </nav> -->
+      </div>
    </section>
 
             <!-- =========slider-end========= -->
@@ -125,7 +136,7 @@
       <div class="our-service-cards">
          <div class="our-service-card-inner">
             <div class="our_service_card_all row">
-               <div class="col-md-3"> 
+               <div class="col-md-3 my-3"> 
                   <div class="serction_content_style">
                         <i class="fa fa-bullseye" aria-hidden="true"></i>						
                         <h2>Website Design</h2>
@@ -133,7 +144,7 @@
                         <a href="#" class="read_more">Read More</a>
                   </div>
                </div>
-               <div class="col-md-3"> 
+               <div class="col-md-3 my-3"> 
                   <div class="serction_content_style">
                         <i class="fa fa-plug" aria-hidden="true"></i>						
                         <h2>Website Design</h2>
@@ -141,7 +152,7 @@
                         <a href="#" class="read_more">Read More</a>
                   </div>
                </div>
-               <div class="col-md-3"> 
+               <div class="col-md-3 my-3"> 
                   <div class="serction_content_style">
                         <i class="fa fa-building" aria-hidden="true"></i>						
                         <h2>Website Design</h2>
@@ -233,6 +244,29 @@
             <!-- ======footer-end======== -->
 
    
+
+   <script>
+      $(document).ready(function(){
+      $('.bxslider').bxSlider({
+         auto: true,
+         prevText: '',   
+         nextText: '',
+         hideControlOnEnd: false,
+         controls: false,
+         pager: false,
+         autoControls: false,
+         stopAutoOnClick: false,
+         pager: false,
+         // adaptiveHeight: true,
+         // nextSelector: '.ext .bxNext',
+         // prevSelector: '.ext .bxPrev',
+
+         // nextText: '<i class="fa fa-arrow-circle-right fa-3x"></i>',
+         // prevText: '<i class="fa fa-arrow-circle-left fa-3x"></i>',
+         
+      });
+       });
+   </script>
    <!-- ========offline====== -->
   <script src="js/jq-main.js"></script>
   <script src="js/bx-slider.js"></script>
